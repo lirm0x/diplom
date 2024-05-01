@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:wght@100..900&display=swap');
+:root{
+    --button-color: #0B0E66;
+    --button-text-color: #26C7EA;
+}
+body{
+    font-family: "Inter";
+}
+.header-one{
+    background: url(/img/ok.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-wrapper{
+    padding: 49px 48px 39px 204px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    margin-right: 300px;
+}
+.nav-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 38px;
+    margin-right: 450px;
+}
+.header-text{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+.nav-swither {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.swither{
+    font-weight: 900;
+    font-family: "Headland One";
+}
+.nav-swither-circle {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 4px 4px 4px 20px;
+}
+.nav-swither-circle__item {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+}
+.enter{
+    font-size: 20px;
+    color: var(--button-text-color);
+    padding: 8px 38px;
+    background: #0b0e66;
+    border: 2px solid var(--button-text-color);
+    border-radius: 35px 0;
+    margin-right: 40px;
+    font-family: "Headland One";
+}
+.section-text-language{
+    background: url(/img/2.png) no-repeat center/cover;
+    width: auto;
+    height: 724px;
+}
+.language-avatar{
+    font-size: 20px;
+    padding-top: 196px;
+    margin-left: 204px;
+    width: 298px;
+    height: 96px;
+    
+}
+.language{
+    margin-left: 257px;
+    width: 170px;
+    padding-bottom: 15px;
+}
+.language-ua{
+    font-size: 20px;
+    width: 376px;
+    height: 123px;
+    margin-left: 204px;
+}
+.button-clan{
+    font-size: 25px;
+    margin-left: 204px;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border: 2px solid var(--button-text-color);
+    border-radius: 35px 0;
+    width: 260px;
+    height: 80px;
+    font-family: "Headland One";
+}
+.icon{
+    margin-left: 84%;
+    margin-top: -300px;
+}
+.icon-instagram{
+    display: block;
+    margin-bottom: 24px;
+}
+.icon-twitter{
+    display: block;
+    margin-bottom: 27px;
+}
+.icon-youtube{
+    display: block;
+    margin-left: -5%;
+}
+
+.one1{
+   text-align: center; 
+   font-size: 25px;
+}
+.one2{
+    text-align: center; 
+    font-size: 25px;
+ }
+.one3{
+    text-align: center; 
+    font-size: 25px;
+ }
+
+#one1{
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+#one2{
+    margin-top: 75px;
+    margin-bottom: 5px;
+}
+#one3{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.watch{
+    text-align: center;
+    background: url(/img/watch.jpg) no-repeat center/cover;
+    height: 900px;
+}
+.watch-button{
+    font-size: 35px;
+    padding: 8px 38px;
+    background: #0b0e66;
+    border: 2px solid var(--button-text-color);
+    border-radius: 35px 0;
+    margin-right: 40px;
+    margin-top: 450px;
+    font-family: "Headland One";
+}
+.watch-a{
+    text-decoration: none;
+    color: var(--button-text-color)
+}
+.teach{
+    background: url(/img/land.png) no-repeat center/cover; 
+    justify-content: center;
+    text-align: center;
+    height: 704px;
+    /* font-family: "Headland One"; */
+}
+.teach-list{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 202px;
+    margin-right: 207px;
+    gap: 35px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    background-color: rgba(240, 255, 255, 0.5);
+    width: 25%;
+    height: 200px;
+    
+}
+.list p{
+    font-size: 30px;
+}
+.teach-h5{
+    font-size: 35px;
+    margin-top: 63px;
+    margin-bottom: 45px;
+}
+
+.footer{
+    background: url(/img/footer2.png) no-repeat center/cover;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex;
+    margin-bottom: 59px;
+    margin-top: 59px;
+    margin-left: 10%;
+}
+.footer-line{
+    margin-left: 10%;
+}
+.footer-text{
+    margin-left: 10%;
+    font-family: none;
+}
+.footer-p-3{
+    margin-left: 11%;
+    margin-top: 37px;
+    
+}
+.img-teach{
+    margin-left: 15%;
+}
+.Vector{
+    margin-bottom: 4px;
+}
